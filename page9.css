@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:425) {}
+
+body {
+    height: 100vh;
+}
+
+.back {
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 30px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.back h3 {
+    padding-top:20px;
+}
+
+.mage {
+    position: relative;
+    left:70px;
+    top: 50px; 
+}
+
+.mages {
+    width:260px; 
+}
+
+.merlin {
+    border: 1px solid black;
+    width: 200px;
+    margin-top: 120px;
+    margin-left: 100px;
+    padding: 10px;
+    padding-left:20px;
+    background: black;
+    color: white;
+    height: 40px;
+}
+
+.guys {
+    border: 1px solid black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    height: 70px;
+}
+
+.guys img {
+    width: 100px;
+    height: 50px;
+    padding-top: 5px;
+}
